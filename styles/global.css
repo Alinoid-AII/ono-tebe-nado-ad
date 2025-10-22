@@ -23,10 +23,12 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a {
   color: inherit;
+  text-decoration: underline;
 }
 
 img {
@@ -34,5 +36,44 @@ img {
 }
 
 button {
+  padding: 0;
+  border: none;
   font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cover {
+  margin-bottom: 180px;
+  padding: 165px 50px 50px 50px;
+
+}
+
+.lots {
+  margin-bottom: 120px;
+
+}
+
+.about {
+
+}
+
+.footer {
+  padding-left: 50px;
+  padding-right: 50px;
+    
+}
+
+h2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
 }
